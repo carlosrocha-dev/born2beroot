@@ -13,4 +13,9 @@
  - Is forbiden install X.org or other equivalent graphics server
  - Witch OS was choosed?
  	- [ ] VentOS
-	- [x] Debian
+	- [x] Debian (https://www.debian.org/index.pt.html)
+
+## The project
+
+- [ ] Create at least 2 encrypted partitions using LVM. 
+Below is an example of the expected partitioning
