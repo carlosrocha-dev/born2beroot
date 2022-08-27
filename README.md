@@ -31,9 +31,9 @@ Below is an example of the expected partitioning
 - [ ] saber testar a SSH setando uma nova conta		[]
 - [ ] *setar UFW e deixar apenar porta 4242 aberta		[]
 - [ ] a firewall tem que estar ativa quando vc abrir a VM	[]
-- [ ] saber mudar o hostname para logindaintra42		[]
+- [x] saber mudar o hostname para logindaintra42		[]
 - [ ] instalar sudo						[]
-- [ ] user com username=login tem que estar presente		[]
+- [x] user com username=login tem que estar presente		[]
 - [ ] esse user tem que estar nos groups user42 e sudo	[]
 - [ ] saber criar um user novo e botar ele num grupo		[]
 
