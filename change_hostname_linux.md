@@ -13,7 +13,7 @@
   
  3 - Change hostname with:
   ```bash
-    # hostnamectl set-hostnem [new-hostname]
+    # hostnamectl set-hostname [new-hostname]
   ```
  
     
