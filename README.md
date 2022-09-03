@@ -23,33 +23,33 @@ Below is an example of the expected partitioning
 
 -----------  CHECKLIST ------------------------------------
 
-- [ ] escolher entre debian e centos e saber pq		[]
-- [ ] criar ao menos 2 partições encriptadas			[ok]
-- [ ] saber diferença entre aptitude e apt			[]
+- [x] escolher entre debian e centos e saber pq		[]
+- [x] criar ao menos 2 partições encriptadas			[ok]
+- [x] saber diferença entre aptitude e apt			[]
 - [ ] saber diferença entre AppArmor e SElinux		[]
-- [ ] *servico SSH rodando apenas na porta 4242 (sem bonus)	[]
-- [ ] saber testar a SSH setando uma nova conta		[]
-- [ ] *setar UFW e deixar apenar porta 4242 aberta		[]
-- [ ] a firewall tem que estar ativa quando vc abrir a VM	[]
+- [x] *servico SSH rodando apenas na porta 4242 (sem bonus)	[]
+- [x] saber testar a SSH setando uma nova conta		[]
+- [x] *setar UFW e deixar apenar porta 4242 aberta		[]
+- [x] a firewall tem que estar ativa quando vc abrir a VM	[]
 - [x] saber mudar o hostname para logindaintra42		[]
-- [ ] instalar sudo						[]
+- [x] instalar sudo						[]
 - [x] user com username=login tem que estar presente		[]
-- [ ] esse user tem que estar nos groups user42 e sudo	[]
-- [ ] saber criar um user novo e botar ele num grupo		[]
+- [x] esse user tem que estar nos groups user42 e sudo	[]
+- [x] saber criar um user novo e botar ele num grupo		[]
 
 implementar strong password policy			[]
   |
-  - [ ] password tem q expirar a cada 30 dias			[]
-  - [ ] pelo menos 2 dias antes de poder trocar de pswd		[]
-  - [ ] avisar user 7 dias antes de pswd expirar			[]
-  - [ ] pswd obedece a regex dos infernos				[]
+  - [x] password tem q expirar a cada 30 dias			[]
+  - [x] pelo menos 2 dias antes de poder trocar de pswd		[]
+  - [x] avisar user 7 dias antes de pswd expirar			[]
+  - [x] pswd obedece a regex dos infernos				[]
   - [ ] pswd não contem o nome do usuario				[]
   - [ ] pelo menos 7 chars diferente dos do ultimo pswd		[]
-  - [ ] pswd do root usr precisa obedecer a policy			[]
+  - [x] pswd do root usr precisa obedecer a policy			[]
 
 aplicar regras rígidas em sudoers			[]
   |
-  - [ ] limite de 3 tentativas de acesso com pswd errado		[]
+  - [x] limite de 3 tentativas de acesso com pswd errado		[]
   - [ ] se pswd errado, printa mensagem escolhida			[]
   - [ ] logar cada ação de sudo em um arquivo em var/log/sudo	[]*¹
   - [ ] modo TTY tem que estar ligado pq segurança			[]
@@ -83,8 +83,11 @@ formatar o disco no esquema do subject			[]
 
 desenrolar um website de wordpress funcional		[]
   |
-  - [ ] lighttpd							[]
-  - [ ] MariaDB							[]
-  - [ ] PHP								[]
+  - [x] lighttpd							[]
+  - [x] MariaDB							[]
+  - [x] PHP
+  - [ ] wordpress
 
-- [ ] rodar um outro serviço à sua escolha e saber o pq		[]
+- [ ] instalar ssl
+- [ ] ativar o https
+- [ ] failtoban
