@@ -43,17 +43,17 @@ implementar strong password policy			[]
   - [x] pelo menos 2 dias antes de poder trocar de pswd		[]
   - [x] avisar user 7 dias antes de pswd expirar			[]
   - [x] pswd obedece a regex dos infernos				[]
-  - [ ] pswd não contem o nome do usuario				[]
-  - [ ] pelo menos 7 chars diferente dos do ultimo pswd		[]
+  - [x] pswd não contem o nome do usuario				[]
+  - [x] pelo menos 7 chars diferente dos do ultimo pswd		[]
   - [x] pswd do root usr precisa obedecer a policy			[]
 
 aplicar regras rígidas em sudoers			[]
   |
   - [x] limite de 3 tentativas de acesso com pswd errado		[]
-  - [ ] se pswd errado, printa mensagem escolhida			[]
-  - [ ] logar cada ação de sudo em um arquivo em var/log/sudo	[]*¹
-  - [ ] modo TTY tem que estar ligado pq segurança			[]
-  - [ ] restringir paths para sudo					[]
+  - [x] se pswd errado, printa mensagem escolhida			[]
+  - [x] logar cada ação de sudo em um arquivo em var/log/sudo	[]*¹
+  - [x] modo TTY tem que estar ligado pq segurança			[]
+  - [x] restringir paths para sudo					[]
 
 criar monitoring.sh em bash				
   |
@@ -69,13 +69,11 @@ criar monitoring.sh em bash
   - [ ] numero de usuarios usando o servidor			[]
   - [ ] IPv4 e MAC address do servidor				[]
   - [ ] numero de comandos executados com o programa sudo		[]
-  - [ ] saber como o script funciona				[]
-  - [ ] saber interromper o script sem modifica-lo			[]
-  - [ ] saber cron							[]
+  - [X] saber como o script funciona				[]
+  - [X] saber interromper o script sem modifica-lo			[]
+  - [ x] saber cron							[]
 
-- [ ] entender como fazer pra sua signature não mudar		[]
-
-*¹ - Essa bosta pode bugar no debian11
+- [ ] entender como fazer pra sua signature não mudar		
 
 ====== bonus ======
 
@@ -86,7 +84,7 @@ desenrolar um website de wordpress funcional		[]
   - [x] lighttpd							[]
   - [x] MariaDB							[]
   - [x] PHP
-  - [ ] wordpress
+  - [x] wordpress
 
 - [ ] instalar ssl
 - [ ] ativar o https
