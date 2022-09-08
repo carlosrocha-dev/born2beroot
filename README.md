@@ -38,7 +38,7 @@ Below is an example of the expected partitioning
 - [x] saber criar um user novo e botar ele num grupo		[]
 
 implementar strong password policy			[]
-  |
+  
   - [x] password tem q expirar a cada 30 dias			[]
   - [x] pelo menos 2 dias antes de poder trocar de pswd		[]
   - [x] avisar user 7 dias antes de pswd expirar			[]
@@ -57,21 +57,21 @@ aplicar regras rígidas em sudoers			[]
 
 criar monitoring.sh em bash				
   |
-  - [ ] rodar no startup e a cada 10 min				[]
-  - [ ] arquitetura do OS e versão de Kernel			[]
-  - [ ] numero de processadores fisicos				[]
-  - [ ] quanto tem de RAM e quantos % estao sendo usados		[]
-  - [ ] quanto tem memoria e quantos % estao sendo usados		[]
-  - [ ] utilização dos processadores em %gem			[]
-  - [ ] data e horário do ultimo reboot				[]
-  - [ ] se LVM está ativo ou não					[]
-  - [ ] numero de conexões ativas					[]
-  - [ ] numero de usuarios usando o servidor			[]
-  - [ ] IPv4 e MAC address do servidor				[]
-  - [ ] numero de comandos executados com o programa sudo		[]
+  - [x] rodar no startup e a cada 10 min				[]
+  - [x] arquitetura do OS e versão de Kernel			[]
+  - [x] numero de processadores fisicos				[]
+  - [x] quanto tem de RAM e quantos % estao sendo usados		[]
+  - [x] quanto tem memoria e quantos % estao sendo usados		[]
+  - [x] utilização dos processadores em %gem			[]
+  - [x] data e horário do ultimo reboot				[]
+  - [x] se LVM está ativo ou não					[]
+  - [x] numero de conexões ativas					[]
+  - [x] numero de usuarios usando o servidor			[]
+  - [x] IPv4 e MAC address do servidor				[]
+  - [x] numero de comandos executados com o programa sudo		[]
   - [X] saber como o script funciona				[]
   - [X] saber interromper o script sem modifica-lo			[]
-  - [ x] saber cron							[]
+  - [x] saber cron							[]
 
 - [ ] entender como fazer pra sua signature não mudar		
 
@@ -86,6 +86,4 @@ desenrolar um website de wordpress funcional		[]
   - [x] PHP
   - [x] wordpress
 
-- [ ] instalar ssl
-- [ ] ativar o https
-- [ ] failtoban
+- [x] logwath
