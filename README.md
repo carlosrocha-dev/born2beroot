@@ -1,89 +1,33 @@
 <div align="center">
 
-![born2berootn](https://user-images.githubusercontent.com/3737837/179367967-89fa58de-79dc-48e9-a4cb-b868258cf368.png)
+![born2berootm](https://user-images.githubusercontent.com/3737837/190662689-6e876059-fc7a-4d86-9553-20f4c080f696.png)
+
 
 # Born2beRoot
 
 </div>
+## Mandatory part
+- Startup logged
+<img width="1285" alt="Arranque da maquina" src="https://user-images.githubusercontent.com/3737837/190663824-cef5a84e-ced7-47cc-b85a-e21ba52d7b2f.png">
 
-## This project consists of having you set up your first server by following specific rules
-
-## Forbiden
- 
- - Is forbiden install X.org or other equivalent graphics server
- - Witch OS was choosed?
- 	- [ ] VentOS
-	- [x] Debian (https://www.debian.org/index.pt.html)
-
-## The project
-
-- [ ] Create at least 2 encrypted partitions using LVM. 
-Below is an example of the expected partitioning
+- Settings
+<img width="1283" alt="Captura de Tela 2022-09-16 às 10 04 42" src="https://user-images.githubusercontent.com/3737837/190663089-7895e347-16fa-4860-9629-4403ac71465d.png">
 
 
------------  CHECKLIST ------------------------------------
+## Bonus part
 
-- [x] escolher entre debian e centos e saber pq		[]
-- [x] criar ao menos 2 partições encriptadas			[ok]
-- [x] saber diferença entre aptitude e apt			[]
-- [ ] saber diferença entre AppArmor e SElinux		[]
-- [x] *servico SSH rodando apenas na porta 4242 (sem bonus)	[]
-- [x] saber testar a SSH setando uma nova conta		[]
-- [x] *setar UFW e deixar apenar porta 4242 aberta		[]
-- [x] a firewall tem que estar ativa quando vc abrir a VM	[]
-- [x] saber mudar o hostname para logindaintra42		[]
-- [x] instalar sudo						[]
-- [x] user com username=login tem que estar presente		[]
-- [x] esse user tem que estar nos groups user42 e sudo	[]
-- [x] saber criar um user novo e botar ele num grupo		[]
+- Wordpress
 
-implementar strong password policy			[]
-  
-  - [x] password tem q expirar a cada 30 dias			[]
-  - [x] pelo menos 2 dias antes de poder trocar de pswd		[]
-  - [x] avisar user 7 dias antes de pswd expirar			[]
-  - [x] pswd obedece a regex dos infernos				[]
-  - [x] pswd não contem o nome do usuario				[]
-  - [x] pelo menos 7 chars diferente dos do ultimo pswd		[]
-  - [x] pswd do root usr precisa obedecer a policy			[]
+![192 168 0 71_ (1)](https://user-images.githubusercontent.com/3737837/190664895-00ab5fcd-7024-4f3a-bbfe-7348a7bc3b28.png)
 
-aplicar regras rígidas em sudoers			[]
-  |
-  - [x] limite de 3 tentativas de acesso com pswd errado		[]
-  - [x] se pswd errado, printa mensagem escolhida			[]
-  - [x] logar cada ação de sudo em um arquivo em var/log/sudo	[]*¹
-  - [x] modo TTY tem que estar ligado pq segurança			[]
-  - [x] restringir paths para sudo					[]
+![192 168 0 71_index php_africa_ (2)](https://user-images.githubusercontent.com/3737837/190664949-6c0d2000-aeab-45a4-ab68-aa559a5c1069.png)
 
-criar monitoring.sh em bash				
-  |
-  - [x] rodar no startup e a cada 10 min				[]
-  - [x] arquitetura do OS e versão de Kernel			[]
-  - [x] numero de processadores fisicos				[]
-  - [x] quanto tem de RAM e quantos % estao sendo usados		[]
-  - [x] quanto tem memoria e quantos % estao sendo usados		[]
-  - [x] utilização dos processadores em %gem			[]
-  - [x] data e horário do ultimo reboot				[]
-  - [x] se LVM está ativo ou não					[]
-  - [x] numero de conexões ativas					[]
-  - [x] numero de usuarios usando o servidor			[]
-  - [x] IPv4 e MAC address do servidor				[]
-  - [x] numero de comandos executados com o programa sudo		[]
-  - [X] saber como o script funciona				[]
-  - [X] saber interromper o script sem modifica-lo			[]
-  - [x] saber cron							[]
+![192 168 0 71_index php_vodu-curiosidade_](https://user-images.githubusercontent.com/3737837/190664995-3a2fe71e-f6e2-46ad-abed-0902fbcf01b6.png)
 
-- [ ] entender como fazer pra sua signature não mudar		
+![192 168 0 71_index php_afrofuturismo-o-que-e_](https://user-images.githubusercontent.com/3737837/190665363-36ecc10b-8204-4e6e-95be-95be1feeeef9.jpg)
 
-====== bonus ======
+- Fail2ban
 
-formatar o disco no esquema do subject			[]
+<img width="1290" alt="fail to ban" src="https://user-images.githubusercontent.com/3737837/190665405-ec5b9fec-d858-41d7-ae9f-3e5a018da00e.png">
 
-desenrolar um website de wordpress funcional		[]
-  |
-  - [x] lighttpd							[]
-  - [x] MariaDB							[]
-  - [x] PHP
-  - [x] wordpress
-
-- [x] logwath
+- Logwatch
