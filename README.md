@@ -3,7 +3,7 @@
 ![born2berootm](https://user-images.githubusercontent.com/3737837/190662689-6e876059-fc7a-4d86-9553-20f4c080f696.png)
 
 
-# Born2beRoot (Repo in construnsction)
+# Born2beRoot (Repo in construction)
 
 </div>
 ## Mandatory part
