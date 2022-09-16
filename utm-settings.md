@@ -1,12 +1,4 @@
-# Install Debian VM in Apple Silicon ARM
-
-Hypervisor: UTM - https://getutm.app
-
-OS: Debian (v.11) - https://debian.org
-
-VM architecture: X86-64
-
-## UTM Settings
+# ⚙️ UTM Settings
 
 <img width="1062" alt="Captura de Tela 2022-09-16 às 12 05 32" src="https://user-images.githubusercontent.com/3737837/190671742-a395600e-9a7f-476f-9ee7-e0ea253f83cb.png">
 <img width="1058" alt="Captura de Tela 2022-09-16 às 12 05 49" src="https://user-images.githubusercontent.com/3737837/190672266-4eb0a3fc-89da-42b8-82a2-ceb65cd91a33.png">
